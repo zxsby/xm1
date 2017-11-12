@@ -1,0 +1,75 @@
+#top{
+    height:60px;
+    position: relative;
+    z-index: 10;
+}
+#zhuti>div{
+    padding-top: 30px;
+    width: 90%;
+    max-width: 1600px;
+    min-width: 900px;
+    margin: 0 auto;
+    /*border:1px solid red;*/
+}
+#zhuti p{
+    font-size:20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    color:black;
+}
+#zhuti>div>ul {
+    float: left;
+    width: 100%;
+}
+#zhuti>div>ul>li {
+    position: relative;
+    float: left;
+    list-style: none;
+    width: 22.8%;
+    margin: 0 1% 20px 1%;
+    overflow: hidden;
+    /*border:1px solid black;*/
+}
+#zhuti>div>ul>li>a{
+    display:inline-block;
+}
+#zhuti>div>ul>li img {
+    width: 100%;
+    transition: all 0.3s linear;
+}
+.img_scale{
+    transform:scale(1.1);
+}
+#zhuti>div>ul>li a:nth-child(2) {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #ffffff;
+    line-height: 60px;
+    font-size: 17px;
+    padding: 30px 30px 0 30px;
+    background: url(../img/shipu/recipesbg.png) repeat-x;
+}
+#paging {
+    text-align: center;
+}
+#paging>ul {
+    display: inline-block;
+}
+#paging li {
+    float: left;
+    list-style: none;
+    border: 1px solid #666;
+    box-sizing: border-box;
+}
+#paging a {
+    display: inline-block;
+    font-size: 1.2em;
+    line-height: 15px;
+    padding: 15px;
+}
+.active {
+    background: #e2001a;
+    color: white;
+}

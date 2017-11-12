@@ -1,0 +1,324 @@
+body{
+    font-family: "Segoe UI", Arial, "Microsoft YaHei";
+}
+.fixed_nav1{
+    position:fixed;
+    width:100%;
+    top:60px;
+    left:0px;
+    z-index: 10;
+}
+#tou{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    width:100%;
+}
+#lunbo{
+    width:auto;
+    min-height:500px;
+    /*border:1px solid orangered;*/
+}
+
+#lunbo>div{
+    position:relative;
+    padding-top: 60px;
+    width: 100%;
+    max-width: 1600px;
+    min-width: 900px;
+    margin: 0 auto;
+  /*/  border:1px solid blue;*/
+    overflow:hidden;
+}
+#lunbo>div>ul{
+    position:relative;
+    top:0px;
+    left:0px;
+    width:300%;
+}
+#lunbo>div>ul>li{
+    list-style:none;
+    width:33.3%;
+    float:left;
+}
+#lunbo>div>ul>li>img{
+    width:100%;
+}
+#lunbo .yuandian{
+    position:absolute;
+    bottom:20px;
+    left:45%;
+}
+#lunbo .yuandian li{
+    float:left;
+    list-style:none;
+    margin-left:30px;
+}
+#lunbo .yuandian li>a{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background:white;
+    border-radius:20px;
+}
+#lunbo .yuandian li>a:hover,#lunbo .yuandian>ul>li>.yuanhong{
+  background:#E2001A;
+}
+#tou2{
+    height:60px;
+    background:#ECECEC;
+}
+#tou2>ul{
+    width:100%;
+    float:left;
+    text-align: center;
+}
+#tou2>ul>li{
+    position:relative;
+    display:inline-block;
+    width:180px;
+    height:60px;
+    list-style: none;
+}
+#tou2>ul>li>a{
+     width: 100%;
+     display: inline-block;
+     line-height: 54px;
+     font-size: 15px;
+ }
+#tou2>ul>li>a:hover{
+    transition:all 0.3s linear;
+    color:#e2001a;
+}
+#tou2>ul>li>div{
+    position:absolute;
+    top:54px;
+    left:0px;
+    width: 100%;
+    overflow:auto;
+    /*display:none;*/
+    max-height:0px;
+
+    transition:max-height 0.5s linear;
+    background:white;
+    z-index: 1;
+}
+#tou2>ul>li>div>a{
+    width: 100%;
+    line-height:50px;
+    border-bottom:2px solid #EFEFEF;
+    display:block;
+}
+#tou2>ul>li>div>a:hover,.huise{
+   background:#c8c8c8;
+}
+#zhuti>div{
+    padding-top: 30px;
+    width:90%;
+    max-width:1600px;
+    min-width:900px;
+    margin:0 auto;
+}
+#zhuti>div>ul{
+    float:left;
+    width:100%;
+}
+#zhuti>div>ul>li{
+    position:relative;
+    float:left;
+    list-style:none;
+    width:23%;
+    margin: 0 2% 20px 0;
+    overflow:hidden;
+}
+#zhuti>div>ul>li a:nth-child(2){
+    display:inline-block;
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    color: #ffffff;
+    line-height:60px;
+    font-size:17px;
+    padding:30px 30px 0 30px;
+    background:url("../img/shipu/recipesbg.png") repeat-x;
+}
+#zhuti>div>ul>li img{
+   width:100%;
+    transition:all 0.3s linear;
+}
+.img_scale{
+    transform:scale(1.1);
+}
+#motai{
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 100;
+    width:100%;
+    height:0%;
+    background: rgba(0,0,0,0.8);
+    overflow:hidden;
+    transition:all 0.5s linear;
+}
+#motai>div{
+    width: 90%;
+    max-width: 1600px;
+    min-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+#motai>div>.colle{
+    max-height: 90%;
+    background: #ececec;
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    border-radius: 5px;
+    position: relative;
+}
+#motai>div>div>.mt_left{
+    width: 30%;
+    padding: 30px;
+}
+#motai>div>div>.mt_left>img{
+    border-radius: 5px;
+    width: 100%;
+}
+#motai>div>div>.mt_left>div{
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 12px 20px;
+}
+#motai>div>div>.mt_left>div p:nth-child(1){
+   color:#E2001A;
+    font-size: 0.9rem;
+    font-weight:bold;
+}
+#motai>div>div>.mt_left>div p{
+    line-height: 1.6;
+}
+#motai>div>div>.mt_right{
+    width: 65%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 0%;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+}
+#motai>div>div>.mt_right>div{
+    height:100%;
+    overflow-y:auto;
+}
+#motai>div>div>.mt_right>div>.mt_r_text{
+    padding: 15px 30px;
+    line-height: 250%;
+}
+#motai>div>div>.mt_right>div>.mt_r_border{
+    border-bottom: 1px solid #c9c9c9;
+    height: 0;
+}
+#motai .mt_right ul>li{
+    float:left;
+    list-style:none;
+    width:33%;
+}
+#motai .mt_right ul>li>span{
+  float:right;
+    margin-right:30%;
+}
+#motai .mt_right .text_big{
+    font-size: 1.6rem;
+    padding: 10px 0;
+    color:#333333;
+}
+#motai .mt_right .text_md{
+    background: url("../img/shipu/icon_recimat.png") -6px center no-repeat;
+    padding-left: 36px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color:#333333;
+}
+#motai .mt_right .text_md1{
+    background: url("../img/shipu/icon_reciway.png") -6px center no-repeat;
+    padding-left: 36px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color:#333333;
+}
+#motai .close{
+    width:60px;
+    height:60px;
+    position:absolute;
+    top:20px;
+    right:-60px;
+    background:#58585a;
+}
+#motai .close:hover{
+    background:#C8C8C8;
+}
+#motai .close>a{
+  display:inline-block;
+    transform: rotate(45deg);
+    height:60px;
+    width:60px;
+    background:url("../img/shipu/icon_plus.png")no-repeat center;
+}
+#motai .fenxiang{
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+    width: 60px;
+}
+#motai .fenxiang a{
+    display:inline-block;
+    height:60px;
+    width:60px;
+}
+.fenxiang1{
+    background: url("../img/shipu/icon_collet_g2.png") center no-repeat #c8c8c8;
+}
+.fenxiang1_1{
+    background: url("../img/shipu/icon_collet_g.png") center no-repeat #FFFFFF;
+}
+.fenxiang1:hover{
+    background: url("../img/shipu/icon_collet_g.png") center no-repeat #FFFFFF;
+}
+.fenxiang2{
+    background: url("../img/shipu/icon_wechat_g2.png") center no-repeat #c8c8c8;
+}
+.fenxiang2:hover{
+    background: url("../img/shipu/icon_wechat_g.png") center no-repeat #FFFFFF;
+}
+.fenxiang3{
+    background: url("../img/shipu/icon_wb_g2.png") center no-repeat #c8c8c8;
+}
+.fenxiang3:hover{
+    background: url("../img/shipu/icon_wb_g.png") center no-repeat #FFFFFF;
+}
+#paging{
+    text-align:center;
+}
+#paging>ul{
+    display:inline-block;
+}
+#paging  li{
+    float:left;
+    list-style:none;
+    border:1px solid #666;
+    box-sizing: border-box;
+}
+#paging a{
+    display:inline-block;
+    font-size:1.2em;
+    line-height:15px;
+    padding:15px;
+}
+.active{
+    background:#e2001a;
+    color:white;
+}

@@ -1,0 +1,55 @@
+/*底部*/
+#footer2 div{
+   background:#555555;
+   width:100%;
+   padding:10px 0;
+   text-align:center;
+   font-size:13px;
+   color: #fff;
+}
+#footer2 a{
+  color: #fff;
+}
+#footer1{
+  background:#C8C8C8;
+}
+
+#footer1 .ft1{
+   width:62%;
+   min-width:800px;
+   margin:auto;
+   padding:70px 0 50px 0;
+}
+#footer1 .ft2{
+/*  margin-right:80px;*/
+width:20%;
+}
+#footer1 ul{
+  display:inline-block;
+  list-style:none;
+  vertical-align: top;
+  float:left;
+}
+#footer1 li{
+  list-style:none;
+  font-size:13px;
+   padding:5px 0;
+}
+#footer1 .ft3{
+      color: #333333;
+	  font-size:17px;
+	  font-weight:600;
+}
+#footer1 .ftew{
+     float:right;
+}
+#footer1 .ftew>span{
+    display:inline-block;
+    background: #e2001a;
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+    padding: 0px 25px;
+    color: #fff;
+	margin-bottom:15px;
+}

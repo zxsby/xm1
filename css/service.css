@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    cursor: pointer;
+}
+img {
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 0;
+}
+body {
+    margin: 0;
+    position: relative;
+    font-family: "Segoe UI", Arial, "Microsoft YaHei";
+    font-weight: normal;
+    line-height: 1.8;
+    color: #333333;
+    font-size: 1rem;
+}
+#top{
+    height:60px;
+}
+#service .links {
+    padding-top: 80px;
+    height: 800px;
+    background: #ececec;
+    text-align: center;
+    /*border:1px solid red;*/
+}
+#service .links .inner {
+    max-width: 1280px;
+    width: 90%;
+    min-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    /*border:1px solid blue;*/
+}
+#service .links .btitle {
+    font-size: 3.3rem;
+    margin-bottom: 50px;
+}
+#service .colorblock {
+    width: 21%;
+    float: left;
+    height: 440px;
+    overflow: hidden;
+    margin: 0 2% 0 2%;
+    color: #fff;
+    /*border:1px solid yellow;*/
+    -webkit-transition: all 0.5s linear;
+}
+#service .colorblock .cont {
+    width: 100%;
+    height: 440px;
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+}
+#service .colorblock .icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 30px auto;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+}
+#service .wechat .icon{background: url(../img/service/icon_serwechat.png) center 25px no-repeat #b7d030;}
+#service .phone .icon{background:url(../img/service/icon_serphone.png) center 25px no-repeat #ffcd26;}
+#service .mail .icon{background:url(../img/service/icon_sermail.png) center 25px no-repeat #3a6eba;}
+#service .down .icon{background:url(../img/service/icon_serdown.png) center 25px no-repeat #e67168;}
+#service .wechat:hover .icon{background:url(../img/service/icon_serwechat_h.png) center 25px no-repeat #fff; }
+#service .phone:hover .icon{background:url(../img/service/icon_serphone_h.png) center 25px no-repeat #fff;}
+#service .mail:hover .icon{background:url(../img/service/icon_sermail_h.png) center 25px no-repeat #fff;}
+#service .down:hover .icon{background:url(../img/service/icon_serdown_h.png) center 25px no-repeat #fff;}
+
+#service .colorblock .title {
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+ .colorblock p {
+    color: #666;
+}
+#service .wechat:hover{
+    background:#b7d030;
+
+}
+#service .phone:hover{
+    background:#ffcd26;
+
+}
+#service .mail:hover{
+    background:#3a6eba;
+
+}
+#service .down:hover{
+    background:#e67168;
+
+}
+#service .wechat:hover p,.phone:hover p,.mail:hover p,.down:hover p{
+    color:white;
+}
+#service .colorblock .big {
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+}
+#service .colorblock .small {
+    font-size: 1rem;
+}
+#service .colorblock a {
+    color: #666;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: 2px auto 10px auto;
+    width: 120px;
+    display: block;
+    font-size: 1.2rem;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+#service .colorblock:hover a{color:#fff;}
+#service .colorblock a:hover{color:#808080; background:#fff;}
+#service .codecheck {
+    padding: 60px 0;
+    background: #fff;
+}
+#service .codecheck .cont {
+    background: url(../img/service/service_09.jpg) 80% center no-repeat;
+    height: 530px;
+    padding-right: 50%;
+    text-align: center;
+}
+#service .codecheck .btitle {
+    font-size: 2em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#service .codecheck .input {
+    width: 350px;
+    margin: 16px auto;
+}
+#service .codecheck .input input {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    line-height: 48px;
+    height: 48px;
+    padding: 0 12px;
+}
+#service .codecheck .btn {
+    width: 350px;
+    margin: 16px auto;
+}
+#service .codecheck .btn input {
+    line-height: 48px;
+    height: 48px;
+    padding: 0 12px;
+    width: 100%;
+    display: block;
+    color: #fff;
+    border: none;
+    background: #e2001a;
+}
+#service .codecheck .result {
+    text-align: center;
+    width: 350px;
+    margin: 30px auto;
+    font-size: 1rem;
+    color: #888;
+}
+#service .faq {
+    padding-top: 70px;
+    overflow: hidden;
+    background: url(../img/service/service_13.jpg) top no-repeat #a8afb5;
+}
+#service .faq .cont {
+    height: 580px;
+    padding-left: 50%;
+    text-align: center;
+}
+#service .faq .btitle {
+    font-size: 2rem;
+    padding-top: 160px;
+    padding-bottom: 30px;
+}
+#service .faq .input {
+    width: 350px;
+    margin: 16px auto;
+}
+#service .faq .input select {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    line-height: 48px;
+    height: 48px;
+    padding-left: 12px;
+}
+#service .faq .btn {
+    width: 350px;
+    margin: 16px auto;
+    background: #e2001a;
+}
+#service .faq .btn a {
+    line-height: 48px;
+    height: 48px;
+    padding: 0 12px;
+    width: 100%;
+    display: block;
+    color: #fff;
+}
+#service .faq .list {
+    /*display: none;*/
+    list-style: none;
+}
+#service .faq .list li {
+    margin-bottom: 20px;
+    background: #fff;
+    line-height: 30px;
+    color: #808080;
+}
+#service .faq .list li .question {
+    background: url(../img/service/icon_question.jpg) no-repeat 14px 12px;
+    padding: 12px;
+    padding-left: 56px;
+}
+#service .faq .list li .question a {
+    float: right;
+    position: relative;
+    margin-right: 20px;
+}
+#service .faq .list li .answer {
+    background: url(../img/service/icon_answer.jpg) no-repeat 14px 12px;
+    /*height:0;*/
+    padding: 12px;
+    padding-left: 56px;
+    font-size: 0.8rem;
+    border-top: 1px dashed #ececec;
+    /*transition: all .5s linear ;*/
+    overflow: hidden;
+    display: none;
+}
+#service .faq .list li .up{
+height:0;display:block;transition:all 0s linear;
+}
+#service .faq .list li .doun{
+    height:0;display:block;transition:all 0s linear;
+  padding:0px 0px 0px 56px;
+}
+.inner {
+    width: 90%;
+    max-width: 1600px;
+    min-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+#service .contact {
+    padding: 40px 0 80px 0;
+}
+#service .contact .btitle {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#service .contact .list {
+    margin: 0 10%;
+    width: 80%;
+    color: #808080;
+}
+#service .contact .list li {
+    line-height: 50px;
+    height: 50px;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#service .contact .list li p {
+    width: 15%;
+    float: left;
+    text-indent: 4px;
+    overflow: hidden;
+}
+#service .contact .list li p.phone {
+    float: right;
+}
+#service .contact .list li p.addr {
+    width: 55%;
+}
+#service .contact .list li p.blue {
+    color: #0084ff;
+    float: right;
+}
+#service .contact .more {
+    text-align: center;
+    line-height: 50px;
+}
+#downalert {
+    width: 700px;
+    height: 300px;
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -350px;
+    margin-top: -150px;
+    overflow: auto;
+    display: none;
+}
+#downalert ul {
+    height: 300px;
+    overflow: auto;
+    margin-left: 16px;
+    list-style: none;
+}
+#downalert ul li {
+    width: 180px;
+    height: 210px;
+    margin: 45px 20px;
+    float: left;
+    transition: all 0.2s linear;
+    /*-moz-transition: all 0.2s linear;*/
+    /*!* -webkit-transition: all 0.2s linear; *!*/
+    /*-o-transition: all 0.2s linear;*/
+}
+#downalert ul li img {
+    width: 100%;
+}
+#downalert ul li:hover img {
+    box-shadow: 3px 3px 5px #999;
+}
+#downalert ul li p {
+    line-height: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+#downalert .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    display: block;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+}

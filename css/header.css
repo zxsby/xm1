@@ -1,0 +1,265 @@
+.hd1 div{
+   display:inline-block;
+}
+#header .hd1{
+  min-width: 1080px;
+  height:60px;
+  background:#FFFFFF;
+  z-index: 20;
+  position:relative;
+}
+#header .fixed_nav{
+   position:fixed;
+   width:100%;
+   background:white;
+   top:0px;
+   left:0px;
+}
+#header .hd1_1{
+  float:left;
+  width:13%;
+  margin:0 5px 0 40px;
+}
+#header .hd1_2{
+  width:15.1%;
+  height:60px;
+  background:#E2001A;
+  position:absolute;
+  left:0px;
+    opacity: 0;
+  transition:all .2s linear;
+}
+.hd1_21{
+  color:white;
+}
+.hd2{
+  vertical-align: top;
+  position:relative;
+  width: 40%;
+  overflow: hidden;
+}
+#header ul{
+ float:left;
+ width:100%;
+}
+#header li{
+  float:left;
+  width:15.1%;
+  list-style:none;
+  position:relative;
+  z-index:1;
+}
+#header li a{
+  display:inline-block;
+  line-height:60px;
+  width:100%;
+  font-size:15px;
+  text-align:center; 
+}
+#header .hd1_3{
+  position:relative;
+  background: #eeeeee; 
+  width:22%;
+    vertical-align: top;
+}
+#header form input:nth-child(1){
+	 width:75%;
+     height:60px;
+	 padding:0 0px 0 10px ;
+	 border:0;
+	 background: #eeeeee;
+}
+#header form input:nth-child(2){ 
+   cursor: pointer;
+   position:absolute;
+    top:0px;
+    right:0px;
+    padding:0;
+    height: 60px;
+    width: 60px;
+    background: url("../img/index/icon_search.png") no-repeat center;
+    border: none;
+	}
+/*<!-- 							登录注册 -->*/
+#header .hd1_4{
+   text-align:center;
+   height:60px;
+   width:19%;
+    vertical-align: top;
+}
+#header .hd1_4 a{
+    display:inline-block;
+    line-height:60px;
+    font-size:15px;
+}
+/*<!-- 							登录注册 2-->*/
+#header .hd_user{
+    height:60px;
+    width:15%;
+    background:#00a1ed;
+    vertical-align: bottom;
+    position:relative;
+}
+#header .user_pic{
+    line-height:60px;
+    text-align:center;
+    font-size:16px;
+}
+#header .user_pic>img{
+  border-radius: 20px;
+    margin-left:20px;
+}
+#header .user_zhongxin{
+    position:absolute;
+    width:100%;
+    top:60px;
+    left:0px;
+    height:0px;
+    z-index:10;
+    overflow:hidden;
+    transition:all .3s linear;
+}
+#header .user_zhongxin>p{
+    line-height:60px;
+    background:white;
+    /*background:#c8c8c8;*/
+    border-top:1px solid #c8c8c8;
+}
+#header .user_zhongxin>p>a:before{
+    /*color:#c8c8c8;*/
+    margin-left:20px;
+    margin-right:20px;
+}
+#header .user_zhongxin>p>a{
+    font-size:15px;
+    display:inline-block;
+    line-height: 60px;
+    width:100%;
+}
+/*////////////////*/
+#header>.login{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.7);
+    z-index:1000;
+    display:none;
+}
+#header>.login>.log{
+    width:440px;
+    height:340px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-240px;
+    margin-top:-170px;
+    background:white;
+    border-radius:20px;
+}
+#header>.login>.log>.log_close{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+#header>.login>.log>.log_close>img{
+  transition:all 0.5s linear;
+}
+#header>.login>.log>.log_input{
+    height:70%;
+    width:60%;
+    margin:0 auto;
+    text-align:center;
+    padding-top:30px;
+}
+#header>.login>.log>.log_up{
+    width:60%;
+    text-align:center;
+    font-size:15px;
+    margin:10px auto;
+}
+#header .log_up a:nth-child(1){
+ float:left;  color:#ccc;
+}
+#header .log_up a:nth-child(2){
+    float:right;color:#ccc;
+}
+#header .log_up a:hover{
+    color:#555;
+}
+#header>.login>.log>.log_input>img{
+    margin-bottom:20px;
+}
+#header>.login>.log>.log_input>input{
+    width:80%;
+    height:30px;
+    margin:5px auto;
+    padding:5px;
+}
+#header>.login>.log>.log_input input:nth-child(4){
+    width:85%;
+    height:35px;
+    margin:5px auto;
+    background:#E2001A;
+    color:white;
+    font-size:14px;
+    border:0;
+}
+#header .login_yanzheng{
+    width:300px;
+    height:180px;
+    position:absolute;
+    top:90px;
+    left:60px;
+    background: rgba(0,0,0,0.7);
+    border-radius:20px;
+    text-align:center;
+	display:none;
+/*    z-index:-1;*/
+/*    opacity:0;*/
+    transition:all 0.8s linear;
+}
+#header .login_yanzheng>p{
+    line-height:80px;
+    font-size:18px;
+    color:white;
+    margin-bottom: 20px;
+}
+#header .login_yanzheng>span{
+    line-height:10px;
+    font-size:14px;
+    color:white;
+}
+#search{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    z-index:1;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.2);
+    display:none;
+}
+.hd1_3 #search>li{
+    float:left;
+    width:100%;
+    list-style:none;
+    position:relative;
+    z-index:1;
+    padding: 1px 6px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.hd1_3 #search>li>div{
+    color: #555;
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.hd1_3 #search>li:hover{
+    background:#eeeeee;
+}
+
+

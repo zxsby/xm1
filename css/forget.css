@@ -1,0 +1,11 @@
+#sect{
+    background:#ececec;
+    min-height: 200px;
+    padding:50px 0;
+}
+#sect>div{
+    width:900px;
+    min-height:300px;
+    margin:0 auto;
+    background:white;
+}

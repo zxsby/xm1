@@ -1,0 +1,84 @@
+/*右侧边栏*/
+#right_lan{
+  width:60px;
+  height:240px;
+  position:fixed;
+  z-index:100;
+  right:0;
+  top:40%;
+  transition:all 0.5s linear;
+  overflow:hidden;
+}
+#right_lan .lan_z>div{
+  width:60px;
+  height:60px;
+  text-align:center;
+  position:relative;
+  line-height:60px;
+}
+
+#right_lan .lan_bai_kf{
+    width: 170px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: -170px;
+    background:white;
+	z-index:11;
+	display:none;
+}
+#right_lan  p{
+    font-size:16px;
+	margin:20px;
+	line-height:20px;
+}
+#right_lan .lan_bai_wx{
+    width: 160px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: -160px;
+    background:white;
+	z-index:11;
+	display:none;
+}
+#right_lan .lan_bai_yx{
+    width: 210px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: -210px;
+    background:white;
+	z-index:11;
+	display:none;	
+}
+.lan_hui{
+  background-color:#808080;
+  }
+.lan_bai{
+  background-color:white;
+}
+.lan_hei{
+   background-color:#463939;
+}
+#right_lan>.lan_z div:nth-child(1)>img{
+ transform-origin:50% 50%;
+ transform:rotate(45deg);
+ transition:all 0.5s linear;
+}
+#totop{
+    position: fixed;
+    right: -60px;
+    bottom: 10%;
+    width: 60px;
+    height: 60px;
+    background: #f8f9fb;
+    box-shadow: 0px 0px 3px #ccc;
+    z-index: 90;
+    transition:all 0.5s linear;
+}
+#totop a {
+    background: url(../img/pinpai/icon_top.png) no-repeat center;
+    display: block;
+    height: 60px;
+}

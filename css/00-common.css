@@ -1,0 +1,27 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font:12px "simhei",Arial,Helvetica,sans-serif;
+	color:#666;
+   background-color:#f5f5f5;
+
+}
+a{
+  color:#555;
+  text-decoration:none;
+}
+a:hover{
+ 
+}
+img{
+   vertical-align:middle;
+}
+.clear::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
